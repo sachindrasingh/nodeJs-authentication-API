@@ -1,0 +1,30 @@
+{
+  "name": "login-logout-workflow",
+  "version": "0.3.0",
+  "description": "Simple authentication service for login-logout-workflow",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "*",
+    "mongodb": "*",
+    "mongoose": "*"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": "",
+  "license": "MIT"
+}
